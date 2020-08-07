@@ -16,44 +16,49 @@
       <body>
             <body background="https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-blue-atmosphere-technology-gear-poster-image_261837.jpg">
               
-               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {margin:0;}
+body {font-family: Arial, Helvetica, sans-serif;}
 
-.icon-bar {
+.navbar {
   width: 100%;
   background-color: #555;
   overflow: auto;
 }
 
-.icon-bar a {
+.navbar a {
   float: left;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
+  padding: 36px;
   color: white;
-  font-size: 36px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.icon-bar a:hover {
+.navbar a:hover {
   background-color: #000;
 }
 
 .active {
   background-color: #4CAF50;
 }
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
 </style>
 <body>
 
-<div class="icon-bar">
-  <a class="active" href="#"><i class="fa fa-home"></i></a> 
-  <a href="#"><i class="fa fa-search"></i></a> 
-  <a href="#"><i class="fa fa-envelope"></i></a> 
-  <a href="#"><i class="fa fa-globe"></i></a>
-  <a href="#"><i class="fa fa-trash"></i></a> 
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="#"><i class="fa fa-globe"></i> Globe</a>
+  <a href="#"><i class="fa fa-trash"></i> Trash</a> 
 </div>
-
 
               
               
